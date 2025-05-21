@@ -1,3 +1,9 @@
+
+/* Automatically adjusts widths to accomodates padding. Quite convenient!*/
+*{
+  border: border-box;
+}
+
 /* Removes default margin */
 body,
 h1,

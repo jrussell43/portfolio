@@ -1,0 +1,83 @@
+body {
+    background-image:url(../img/grizzco-exterior.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'play', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, a {
+    font-family: 'teko', sans-serif;
+    color: black;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-image:url(../img/background-repeating.webp);
+}
+
+.icons, nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icons a, .icons {
+    height: 80px;
+}
+
+/*  NAVBAR CSS */
+header {
+    background-image:url(../img/navigation.png);
+    width: 960px;
+   height: 80px;
+}
+
+header img {
+    padding: 5px 32px 5px 33px;
+}
+
+header nav li a{
+    color: black;
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: 'teko',sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header nav a:hover {
+    color: rgb(0, 255, 140);
+    text-shadow: 0px 0px 20px rgb(66, 154, 131);
+    transform: scale(1.2);
+}
+
+header li{
+    padding: 25px 10px 0px 10px;
+    text-align: center;
+    width: 140px;
+}
+
+header ul li:nth-child(4) {
+    text-align: left;
+    width: 80px;
+    padding-right: 50px;
+}
+
+ header ul li:nth-child(1) {
+    padding-left: 30px;
+ }
+
+
+/* BODY CSS */
+
+body h1 {
+    display: none;
+}
+.header-2 {
+    width: 540px;
+    height: 175px;
+    padding: 20px 220px 20px 200px;
+}
